@@ -1,0 +1,285 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="/w3css/3/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<style>
+.topnav {overflow: hidden;background-color: #333;}
+.topnav a {float: right; color: #f2f2f2;text-align: center;padding: 14px 16px;text-decoration: none;font-size: 17px;}
+.topnav a.active{float: left;color: #f2f2f2; text-align: center;padding :14px 16px;text-decoration: none;font-size: 17px;}
+body,h1,h2,h3,h4,h5,h6,a{font-family: "Raleway", sans-serif;}
+th, td { border-collapse: collapse; padding:50px;}
+table{border-spacing: 60px;}
+
+.btn-12,
+.btn-12 *,
+.btn-12 :after,
+.btn-12 :before,
+.btn-12:after,
+.btn-12:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+
+.btn-12 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #000;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 80%;
+  font-weight: 850;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.btn-12:disabled {
+  cursor: default;
+}
+
+.btn-12:-moz-focusring {
+  outline: auto;
+}
+
+.btn-12 svg {
+  display: block;
+  vertical-align: middle;
+}
+
+.btn-12 [hidden] {
+  display: none;
+}
+
+.btn-12 {
+  border-radius: 99rem;
+  border-width: 2px;
+  overflow: hidden;
+  padding: 0.8rem 3rem;
+  position: relative;
+}
+
+.btn-12 span {
+  mix-blend-mode: difference;
+}
+
+.btn-12:after,
+.btn-12:before {
+  background: linear-gradient(
+    90deg,
+    #fff 25%,
+    transparent 0,
+    transparent 50%,
+    #fff 0,
+    #fff 75%,
+    transparent 0
+  );
+  content: "";
+  inset: 0;
+  position: absolute;
+  transform: translateY(var(--progress, 100%));
+  transition: transform 0.2s ease;
+}
+
+.btn-12:after {
+  --progress: -100%;
+  background: linear-gradient(
+    90deg,
+    transparent 0,
+    transparent 25%,
+    #fff 0,
+    #fff 50%,
+    transparent 0,
+    transparent 75%,
+    #fff 0
+  );
+  z-index: -1;
+}
+
+.btn-12:hover:after,
+.btn-12:hover:before {
+  --progress: 0;
+}
+
+.card {
+  width: 195px;
+  height: 285px;
+  background: #313131;
+  border-radius: 20px;
+  ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  transition: 0.2s ease-in-out;
+}
+
+.img {
+  height: 30%;
+  position: absolute;
+  transition: 0.2s ease-in-out;
+  z-index: 1;
+}
+
+.textBox {
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  transition: 0.2s ease-in-out;
+  z-index: 2;
+}
+
+.textBox > .text {
+  font-weight: bold;
+}
+
+.textBox > .head {
+  font-size: 20px;
+}
+
+.textBox > .price {
+  font-size: 17px;
+}
+
+.textBox > span {
+  font-size: 12px;
+  color: lightgrey;
+}
+
+.card:hover > .textBox {
+  background-color:black;
+  opacity: 0.7;
+}
+</style>
+</head>
+<body>
+<div class="topnav">
+  <a href="#contact">Contact</a>
+  <a href="add to cart.html#cart">Cart</a>
+  <a href="product.html">Paints and Mediums</a>
+  <a href="add to cart.html">Brushes and Tools</a>
+  <a href="#about">About</a>
+  <a href="#home">Home</a>
+  <a class="active">ARTista</a>
+</div>
+<br>
+<div>
+  <img class="mySlides" src="https://images.freeimages.com/images/large-previews/4fa/art-supplies-1-1550962.jpg" style="width:100% ;height:75%;">
+  <img class="mySlides" src="https://images.freeimages.com/images/large-previews/21a/art-supplies-2-1507922.jpg" style="width:100% ; height:75%;">
+  <img class="myslides" src="https://www.jacksonsart.com/blog/wp-content/uploads/2017/02/Faber_Castell_polychromos_colour_pencil_Atmos1.jpg" style="width:100%;height:75%;">
+  </div>
+  <br>
+<br>
+<br>
+<center><h2>Featured Art for Sale</h2>
+<br>
+<h4>Where Scilence meets Serenity</h4>
+<br>
+
+<table>
+    <tr>
+        <td><div class="card">
+    <svg class="img" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" height="100%" version="1.1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 784.37 1277.39" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <img class="img" src="https://i.pinimg.com/originals/b5/0c/62/b50c62bbacb5e01a61b168faf6dcb4a7.jpg" style="width:270px;height:285px;border-radius:10px;">
+    <div class="textBox" style="width:200px;height:285px;">
+      <p class="text head">Icon I</p>
+      <span>by Kamu Sergey and Olga</span>
+      <p class="text price">1,105€ / 97,201.57 rupees</p>
+      <button class="btn-12" ><span>add_to_cart</span></button>
+    </div>
+  </svg> 
+  </div></td>
+        <td><div class="card">
+    <svg class="img" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" height="100%" version="1.1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 784.37 1277.39" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <img class="img" src="https://images.fineartamerica.com/images-medium-large-5/the-miraculous-draft-of-fishes-raphael.jpg" style="width:270px;height:285px;border-radius:10px;">
+    <div class="textBox" style="width:200px;height:285px;">
+      <p class="text head">The Miraculous Draft of Fishes</p>
+      <span>by Raphel</span>
+      <p class="text price">GGG rupees</p>
+      <button class="btn-12" onclick="add()"><span>add_to_cart</span></button>
+    </div>
+  </svg> 
+  </div></td>
+        <td><div class="card">
+    <svg class="img" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" height="100%" version="1.1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 784.37 1277.39" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <img class="img" src="https://collinbogle.com/cdn/shop/products/Sunlit_Soulmates_1800x1800.jpg" style="width:270px;height:285px;border-radius:10px;">
+    <div class="textBox" style="width:200px;height:285px;">
+      <p class="text head">Sunlit Solmates</p>
+      <span>Collin Bogle</span>
+      <p class="text price">12,401.61 rupees</p>
+      <button class="btn-12"onclick="add()" ><span>add_to_cart</span></button>
+    </div>
+  </svg> 
+  </div></td>
+    </tr>
+    <tr>
+        <td><div class="card">
+    <svg class="img" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" height="100%" version="1.1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 784.37 1277.39" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <img class="img" src="http://images.fineartamerica.com/images-medium-large-5/lotus-pond-eade-sentell.jpg" style="width:270px;height:285px;border-radius:10px;">
+    <div class="textBox" style="width:200px;height:285px;">
+      <p class="text head">Blue Lotus Pond</p>
+      <span>By Surekha HM</span>
+      <p class="text price">1,29,808.03rupees</p>
+      <button class="btn-12" onclick="add()"><span>add_to_cart</span></button>
+    </div>
+  </svg> 
+  </div></td>
+        <td><div class="card">
+    <svg class="img" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" height="100%" version="1.1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 784.37 1277.39" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <img class="img" src="https://cdn11.bigcommerce.com/s-x49po/images/stencil/800w/products/30562/43357/BMWMotorcycle_na_600_1163_8000X4502_0__06786.1523870462.jpg" style="width:270px;height:285px;border-radius:10px;">
+    <div class="textBox" style="width:200px;height:285px;">
+      <p class="text head">BMW Motorcycle canva</p>
+      <span>by Fizdi</span>
+      <p class="text price">1,850 rupees</p>
+      <button class="btn-12" onclick="add()"><span>add_to_cart</span></button>
+    </div>
+  </svg> 
+  </div></td>
+        <td><div class="card">
+    <svg class="img" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" height="100%" version="1.1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 784.37 1277.39" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <img class="img" src="https://cdn11.bigcommerce.com/s-x49po/images/stencil/640w/products/21451/33473/1493029878253_Rajasthani_women__85109.1506574682.jpg" style="width:270px;height:285px;border-radius:10px;">
+    <div class="textBox" style="width:200px;height:285px;">
+      <p class="text head">Rajasthani Women</p>
+      <span>by Community Artist Group</span>
+      <p class="text price">11,885 rupees</p>
+      <button class="btn-12" onclick="add()" ><span>add_to_cart</span></button>
+    </div>
+  </svg> 
+  </div></td>
+    </tr>
+</table>
+</center> 
+<script>
+function add()
+{
+  alert('Successfully added to Cart!');
+}
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 1000);
+}
+</script>
+</body>
+</html>
